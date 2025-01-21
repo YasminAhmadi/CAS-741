@@ -22,72 +22,36 @@
 \toprule
 \textbf{Date} & \textbf{Developer(s)} & \textbf{Change}\\
 \midrule
-Date1 & Name(s) & Description of changes\\
-Date2 & Name(s) & Description of changes\\
-... & ... & ...\\
+January 20, 2025 & Yasmin Ahmadi & Creation of Document\\
+
+
 \bottomrule
 \end{tabularx}
 \end{table}
 
 \section{Problem Statement}
 
-\wss{You should check your problem statement with the
-\href{https://github.com/smiths/capTemplate/blob/main/docs/Checklists/ProbState-Checklist.pdf}
-{problem statement checklist}.} 
-
-\wss{You can change the section headings, as long as you include the required
-information.}
+Temporal Response Functions (TRFs) are essential in neuroscience because they enable researchers to understand how neural systems encode and process continuous stimuli over time. They provide a systematic approach to modeling the relationship between continuous stimulus features and corresponding brain responses. Currently, there are two commonly used algorithms for estimating TRFs: one implemented in MATLAB and another integrated into the Python-based Eelbrain toolkit. The goal of this project is to port the MATLAB-based algorithm into the Eelbrain toolkit.
 
 \subsection{Problem}
+This project addresses the problem of implementing a TRF algorithm from a different infrastructure into the Eelbrain toolkit.
 
 \subsection{Inputs and Outputs}
 
-\wss{Characterize the problem in terms of ``high level'' inputs and outputs.  
-Use abstraction so that you can avoid details.}
+The inputs to the program will be predictor variables, which represent the stimulus, and neural response data, which are measurements of brain activity.
+
+The output of the program will be the TRF, which maps predictor variables to neural responses over time.
 
 \subsection{Stakeholders}
-
+The stakeholders of this project are neuroscientists, users of the Eelbrain toolkit, and researchers studying the brain.
 \subsection{Environment}
-
-\wss{Hardware and software environment}
+The software will be designed to run on standard laptops or desktops with Windows, macOS, or Linux operating systems.
 
 \section{Goals}
-
+The goal of this project is to make the MATLAB-based TRF algorithm available in the open-source Python toolkit, Eelbrain, for MEG and EEG data analysis.
 \section{Stretch Goals}
-
-\section{Challenge Level and Extras}
-
-\wss{State your expected challenge level (advanced, general or basic).  The
-challenge can come through the required domain knowledge, the implementation or
-something else.  Usually the greater the novelty of a project the greater its
-challenge level.  You should include your rationale for the selected level.
-Approval of the level will be part of the discussion with the instructor for
-approving the project.  The challenge level, with the approval (or request) of
-the instructor, can be modified over the course of the term.}
-
-\wss{Teams may wish to include extras as either potential bonus grades, or to
-make up for a less advanced challenge level.  Potential extras include usability
-testing, code walkthroughs, user documentation, formal proof, GenderMag
-personas, Design Thinking, etc.  Normally the maximum number of extras will be
-two.  Approval of the extras will be part of the discussion with the instructor
-for approving the project.  The extras, with the approval (or request) of the
-instructor, can be modified over the course of the term.}
-
+Extending beyond the original scope of the project, a potential stretch goal could involve comparing the two TRF algorithms that will become available in the same toolkit upon completion of the project.
 \newpage{}
 
-\section*{Appendix --- Reflection}
-
-\wss{Not required for CAS 741}
-
-\input{../Reflection.tex}
-
-\begin{enumerate}
-    \item What went well while writing this deliverable? 
-    \item What pain points did you experience during this deliverable, and how
-    did you resolve them?
-    \item How did you and your team adjust the scope of your goals to ensure
-    they are suitable for a Capstone project (not overly ambitious but also of
-    appropriate complexity for a senior design project)?
-\end{enumerate}  
 
 \end{document}
